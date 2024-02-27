@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e007204751.js" crossorigin="anonymous"></script>
+    <title>YoutubeClone</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-brands fa-youtube"></i>
+            <span class="title"><a href="#">Youtube</a></span>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src=""></video>
+    </section>
+
+    <!-- Video Info -->
+    <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#유</li>
+                <li>#튜</li>
+                <li>#브</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    이게 이렇게 하는게 맞는걸까? | 클론 코딩 하는중: HTML, CSS, Javascript 기억을 되찾는중...
+                </span>
+                <button class="moreBtn">
+                    <i class="fas fa-caret-down"></i>
+                </button>
+            </div>
+            <div class="views">
+                <span class="views">1M views 1 month ago</span>
+            </div>
+        </div>
+        <!-- Actions -->
+        <ul class="actions">
+            <li>
+                <button><i class="fas fa-thumbs-up"></i></button>
+            </li>
+            <li>
+                <button><i class="fas fa-thumbs-down"></i></button>
+            </li>
+            <li>
+                <button><i class="fas fa-share"></i></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus"></i></button>
+            </li>
+            <li>
+                <button><i class="fab fa-font-awesome-flag"></i></button>
+            </li>
+        </ul>
+        <!-- Channel Description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="image/포폴용.png" alt="">
+                <div class="info">
+                    <span class="name">JuMoth</span>
+                    <span class="subscribers">1M subscribes</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <img src="image/Gojo.jpg" alt="">
+                <div class="info">
+                    <span class="title">Gojo Picture</span>
+                    <span class="name">JuMtoh</span>
+                    <span class="views">82K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="image/nanami.jpg" alt="">
+                <div class="info">
+                    <span class="title">Nanami Picture</span>
+                    <span class="name">JuMtoh</span>
+                    <span class="views">40K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="image/드레이븐.jpg" alt="">
+                <div class="info">
+                    <span class="title">드레이븐 Picture</span>
+                    <span class="name">JuMtoh</span>
+                    <span class="views">300K views</span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
