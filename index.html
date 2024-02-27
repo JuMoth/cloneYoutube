@@ -11,6 +11,7 @@
     <title>YoutubeClone</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="logo">
             <i class="fa-brands fa-youtube"></i>
@@ -27,8 +28,9 @@
         <video controls src="video/test.mp4"></video>
     </section>
 
-    <!-- Video Info -->
-    <section class="info">
+    <div class="infoAndUpNext">
+        <!-- Video Info -->
+        <section class="info">  
         <!-- Metadata -->
         <div class="metadata">
             <ul class="hashtags">
@@ -37,7 +39,7 @@
                 <li>#브</li>
             </ul>
             <div class="titleAndButton">
-                <span class="title">
+                <span class="title clamp">
                     이게 이렇게 하는게 맞는걸까? | 클론 코딩 하는중: HTML, CSS, Javascript 기억을 되찾는중...
                 </span>
                 <button class="moreBtn">
@@ -75,8 +77,10 @@
             </div>
             <button class="subscribers">subscribe</button>
         </div>
-    </section>
-    <section class="upNext">
+        </section>
+
+        <!-- Up Next -->
+        <section class="upNext">
         <span class="title">Up next</span>
         <ul>
             <li class="item">
@@ -107,6 +111,8 @@
                 <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
             </li>
         </ul>
-    </section>
+        </section>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
