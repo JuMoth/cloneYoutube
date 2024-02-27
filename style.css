@@ -32,6 +32,13 @@ ul {
     list-style: none;
 }
 
+button,
+button:focus {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
 /* Header */
 header {
     display: flex;
@@ -74,16 +81,20 @@ header .icons .fa-solid {
     padding: var(--padding);
 }
 
-.hashtags {
+.info .metadata .hashtags {
     display: flex;
     font-size: var(--font-small);
     color: var(--blue-color);
 }
 
-.hashtags li {
+.info .metadata .hashtags li {
     margin-right: var(--padding);
 }
 
-.titleAndButton {
+.info .metadata .titleAndButton {
     display: flex;
+}
+
+.info .metadata .titleAndButton .title {
+    font-size: var(--font-medium);
 }
